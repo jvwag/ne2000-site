@@ -130,8 +130,14 @@ header {
 	position: relative;
 	height: 100%;
 }
+header #meerweten {
+        background-color: rgba(0,0,0,0.6);
+}
+header img {
+        margin-bottom: 2em;
+}
 header p {
-	color: rgba(255,255,255,0.5);
+	color: rgba(255,255,255,0.9);
 	font-size: 32px;
 	font-weight: 300;
 	margin-bottom: 60px;
@@ -164,7 +170,7 @@ header p {
 	transition: all 0.5s;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	background-color: #1b76c1;
+	background-color: #1b76c1 !important;
 	border: 1px solid #1b76c1;
 	color: #eeeeee;
 }
