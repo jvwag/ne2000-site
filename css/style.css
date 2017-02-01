@@ -445,6 +445,28 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #1b76c1;
 }
 
+#bg2-section {
+	background: url(/img/background2.jpg);
+	background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+	color: #cfcfcf;
+	position: relative;
+	height: 24em;
+}
+
+#bg3-section {
+	background: url(/img/background3.jpg);
+	background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+	color: #cfcfcf;
+	position: relative;
+	height: 24em;
+}
+
 @media (max-width: 768px) {
 .content {
 	padding: 40% 0 0;
@@ -462,4 +484,3 @@ label {
 	padding: 15% 10%;
 }
 }
-

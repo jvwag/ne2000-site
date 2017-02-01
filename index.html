@@ -116,6 +116,8 @@
   </div>
 </div>
 
+<div id="bg2-section" data-stellar-background-ratio="0.5"></div>
+
 <!-- Faq Section -->
 <div id="faq-section">
   <div class="container">
@@ -180,6 +182,8 @@
   </div>
 </div>
 
+<div id="bg3-section" data-stellar-background-ratio="0.5"></div>
+
 <!-- Social Section -->
 <div id="social-section">
   <div class="container">
@@ -216,8 +220,19 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script> 
 
 <!-- Javascripts --> 
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+
+$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 40
+			});
+		});
+
+</script>
 </body>
 </html>
