@@ -30,6 +30,11 @@ function main() {
         offset: 80
     })
 
+    $.stellar({
+        horizontalScrolling: false,
+        verticalOffset: 40
+    });
+
 }());
 
 }
